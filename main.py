@@ -8,7 +8,7 @@ bot = telebot.TeleBot('5411415563:AAG5AM8t3t5YTvXhehaib3Q5fptjNGawbaY')
 def start(message):
     mess = f'Привет, <b>{message.from_user.first_name} <u>{message.from_user.last_name}</u></b>'
     bot.send_message(message.chat.id, mess, parse_mode = 'html')
-# 6tre
+# 6trewhjwhj
 @bot.message_handler(content_types = ['text'])
 def user_text(message):
     if message.text == 'Hello':
